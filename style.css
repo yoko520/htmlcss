@@ -1,0 +1,126 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-a{
+    padding-top: 10px;
+}
+
+.header-a a{
+    color: rgb(130, 130, 130);
+    padding-right: 15px; 
+}
+
+.header-a a:hover{
+    color: rgb(235, 0, 40);
+    text-decoration: none;
+}
+
+.header img{
+    display: block;
+    width: 200px;
+}
+
+.kv{
+    background-color: rgba(130, 130, 130, 0.077);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.kv-word{
+    margin-left: 20px;
+    width: 100%;
+    max-width: 650px;
+    padding-left: 20px;
+    border-left: solid rgba(130, 130, 130, 0.51) 2px;
+
+}
+
+.kv img{
+    display: block;
+    max-width: 50%;
+    height: auto;
+}
+
+.introduce{
+    margin: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: solid rgba(130, 130, 130, 0.51) 2px;
+}
+
+.introduce a{
+    font-size: 30px;
+    color:  rgb(235, 0, 40);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid rgb(235, 0, 40) 2px ;
+    border-radius: 999px;
+    text-decoration: none;
+}
+
+.introduce a:hover{
+    color: rgb(12, 235, 0);
+    border: solid  rgb(12, 235, 0) 2px ;
+    border-radius: 999px;
+    text-decoration: none;
+}
+
+.introduce2{
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: solid rgba(130, 130, 130, 0.51) 2px;
+}
+
+.picture{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.picture img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.picture1 ,.picture2,.picture3{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.picture4,.picture5,.picture6{
+    width: 30%;
+}
+
+.contact{
+    margin: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: solid rgba(130, 130, 130, 0.51) 2px;
+}
+
+.contact2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.contact2 img{
+    width: 80px;
+    height: 80px;
+}
