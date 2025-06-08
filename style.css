@@ -124,3 +124,16 @@
     width: 80px;
     height: 80px;
 }
+
+@media (max-width: 992px) {
+  .picture > div {
+    width: 48%;
+  }
+}
+
+/* 手機：一欄 */
+@media (max-width: 767px) {
+  .picture > div {
+    width: 100%;
+  }
+}
