@@ -7,6 +7,8 @@
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 100%;
+    height: auto;
 }
 
 .header-a{
@@ -25,7 +27,8 @@
 
 .header img{
     display: block;
-    max-width: 20%;
+    max-width: 100px;
+    height: auto;
 }
 
 .kv{
@@ -33,6 +36,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: nowrap;
+    max-width: 100%;
+    height: auto;
 }
 
 .kv-word{
@@ -46,12 +51,13 @@
 
 .kv img{
     display: block;
-    max-width: 50%;
+    max-width: 800px;
     height: auto;
 }
 
 .introduce{
     max-width: 100%;
+    height: auto;
     margin: 50px;
     margin-bottom: 10px;
     padding: 10px;
@@ -77,6 +83,7 @@
 
 .introduce2{
     max-width: 100%;
+    height: auto;
     margin: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -90,24 +97,28 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin: auto;
+    max-width: 920px;
+    height: auto;
 }
 
 .picture img{
     display: block;
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
 }
 
 .picture1 ,.picture2,.picture3{
-    max-width: 30%;
+    max-width: 300px;
     margin-bottom: 20px;
 }
 
 .picture4,.picture5,.picture6{
-    max-width: 30%;
+    max-width: 300px;
 }
 
 .contact{
+    max-width: 100%;
+    height: auto;
     margin: 50px;
     margin-top: 10px;
     padding: 10px;
@@ -122,14 +133,14 @@
 }
 
 .contact2 img{
-    width: 80px;
+    max-width: 80px;
     height: 80px;
 }
 
 @media (max-width: 992px) {
   .picture1, .picture2, .picture3,
   .picture4, .picture5, .picture6 {
-    width: 48%;
+    max-width: 300px;
 }
 .kv {
     flex-direction: column;
@@ -150,16 +161,11 @@
 @media (max-width: 480px) {
 .picture1, .picture2, .picture3,
 .picture4, .picture5, .picture6 {
-    width: 100%;
+    max-width: 200Px;
 }
 
 .header {
     flex-direction: column;
     align-items: center;
 }
-
-.header img {
-    width: 150px;
 }
-}
-
