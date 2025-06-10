@@ -155,21 +155,29 @@
     border-left: none;
     padding-left: 0;
 }
-
+.introduce2{
+    justify-content: center;
+}
   .contact2 {
     justify-content: center;
 }
 }
 
-
 @media (max-width: 480px) {
 .picture1, .picture2, .picture3,
 .picture4, .picture5, .picture6 {
-    max-width: 200Px;
+    max-width: 100%;
 }
 
 .header {
     flex-direction: column;
     align-items: center;
+
+}
+.introduce2{
+    justify-content: center;
+}
+  .contact2 {
+    justify-content: center;
 }
 }
