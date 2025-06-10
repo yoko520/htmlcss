@@ -166,7 +166,7 @@
 @media (max-width: 480px) {
 .picture1, .picture2, .picture3,
 .picture4, .picture5, .picture6 {
-    max-width: 100%;
+    max-width: 100px;
 }
 
 .header {
